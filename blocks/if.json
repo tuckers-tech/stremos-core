@@ -1,7 +1,8 @@
 {
   "name": "If",
   "active": true,
-  "family": "conditionals",
+  "blockType": "service",
+  "group": "conditionals",
   "description": "Branches Based On Decision",
   "inputs": [
     {
