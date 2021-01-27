@@ -1,5 +1,6 @@
 {
   "name": "Number",
+  "active": true,
   "family": "generators",
   "description": "Creates A Number",
   "variables": [

@@ -1,0 +1,14 @@
+{
+  "name": "Error",
+  "slug": "error",
+  "schema": [
+    {
+      "name": "code",
+      "type": "number"
+    },
+    {
+      "name": "message",
+      "type": "string"
+    }
+  ]
+}

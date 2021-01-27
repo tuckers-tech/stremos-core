@@ -1,5 +1,6 @@
 {
   "name": "If",
+  "active": true,
   "family": "conditionals",
   "description": "Branches Based On Decision",
   "inputs": [
