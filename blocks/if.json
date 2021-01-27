@@ -1,0 +1,27 @@
+{
+  "name": "If",
+  "family": "conditionals",
+  "description": "Branches Based On Decision",
+  "inputs": [
+    {
+      "name": "Input",
+      "slug": "inputOne",
+      "type": "Boolean",
+      "attr": "input"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "True",
+      "slug": "triggerOutOne",
+      "type": "trigger",
+      "attr": "output"
+    },
+    {
+      "name": "False",
+      "slug": "triggerOutTwo",
+      "type": "trigger",
+      "attr": "output"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Number",
+  "family": "generators",
+  "description": "Creates A Number",
+  "variables": [
+    {
+      "name": "Number Name",
+      "slug": "numberName",
+      "type": "input",
+      "defaultValue": ""
+    },
+    {
+      "name": "Generation Type",
+      "slug": "generationType",
+      "type": "select",
+      "defaultValue": "",
+      "options": [
+        {
+          "name": "Input",
+          "value": "input"
+        },
+        {
+          "name": "Random",
+          "value": "random"
+        },
+        {
+          "name": "Random With Minimum",
+          "value": "randomMin"
+        },
+        {
+          "name": "Random With Max",
+          "value": "randomMax"
+        },
+        {
+          "name": "Random Between Values",
+          "value": "randomBand"
+        }
+      ]
+    },
+    {
+      "name": "Number Value",
+      "slug": "numberValue",
+      "type": "input",
+      "defaultValue": ""
+    }
+  ],
+  "inputs": [],
+  "outputs": [
+    {
+      "name": "NumberOut",
+      "slug": "numberOut",
+      "type": "number",
+      "attr": "output"
+    }
+  ]
+}
