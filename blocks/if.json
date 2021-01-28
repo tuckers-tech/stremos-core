@@ -3,7 +3,8 @@
   "active": true,
   "blockType": "service",
   "group": "conditionals",
-  "description": "Branches Based On Decision",
+  "shortDescription": "Branches Based On Decision",
+  "longDescription": "This block enables your code to create a decision. Here is some examples of it in action.",
   "inputs": [
     {
       "name": "Input",

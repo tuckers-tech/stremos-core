@@ -3,7 +3,8 @@
   "active": true,
   "blockType": "service",
   "group": "generators",
-  "description": "Creates A Number",
+  "shortDescription": "Creates A Number",
+  "longDescription": "This block generates a number.  There are many ways to generate a number, here they are!",
   "variables": [
     {
       "name": "Number Name",
