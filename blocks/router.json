@@ -1,0 +1,23 @@
+{
+  "name": "router",
+  "title": "Router",
+  "active": true,
+  "blockType": "service",
+  "family": "Server",
+  "shortDescription": "Routes Based on URL",
+  "longDescription": "Routes URLs based on a URL",
+  "fields": [
+    {
+      "name": "Request",
+      "slug": "requestIn",
+      "type": "request",
+      "attr": "input"
+    },
+    {
+      "name": "Request",
+      "slug": "requestOut",
+      "type": "request",
+      "attr": "output"
+    }
+  ]
+}

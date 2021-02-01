@@ -1,0 +1,35 @@
+{
+  "name": "getByID",
+  "title": "Get By ID",
+  "active": true,
+  "blockType": "service",
+  "family": "Server",
+  "shortDescription": "Gets A Piece of Data By ID",
+  "longDescription": "Gets A Piece of Data By ID",
+  "fields": [
+    {
+      "name": "Request",
+      "slug": "requestIn",
+      "type": "request",
+      "attr": "input"
+    },
+    {
+      "name": "ID",
+      "slug": "idIn",
+      "type": "string",
+      "attr": "input"
+    },
+    {
+      "name": "Data Out",
+      "slug": "dataOut",
+      "type": "Entry",
+      "attr": "output"
+    },
+    {
+      "name": "Error",
+      "slug": "errorOut",
+      "type": "error",
+      "attr": "output"
+    }
+  ]
+}

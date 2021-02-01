@@ -1,0 +1,35 @@
+{
+  "name": "getDataByQuery",
+  "title": "Get Data By Query",
+  "active": true,
+  "blockType": "service",
+  "family": "Server",
+  "shortDescription": "Gets Data",
+  "longDescription": "Gets a Piece of Data By Query",
+  "fields": [
+    {
+      "name": "Request",
+      "slug": "requestIn",
+      "type": "request",
+      "attr": "input"
+    },
+    {
+      "name": "Query",
+      "slug": "queryIn",
+      "type": "Query",
+      "attr": "input"
+    },
+    {
+      "name": "Data Out",
+      "slug": "dataOut",
+      "type": "Entry",
+      "attr": "output"
+    },
+    {
+      "name": "Error",
+      "slug": "errorOut",
+      "type": "error",
+      "attr": "output"
+    }
+  ]
+}

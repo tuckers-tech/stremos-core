@@ -1,8 +1,9 @@
 {
-  "name": "Number",
+  "name": "number",
+  "title": "Number",
   "active": true,
   "blockType": "service",
-  "group": "generators",
+  "family": "generators",
   "shortDescription": "Creates A Number",
   "longDescription": "This block generates a number.  There are many ways to generate a number, here they are!",
   "variables": [
@@ -47,8 +48,7 @@
       "defaultValue": ""
     }
   ],
-  "inputs": [],
-  "outputs": [
+  "fields": [
     {
       "name": "NumberOut",
       "slug": "numberOut",

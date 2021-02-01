@@ -1,0 +1,23 @@
+{
+  "name": "postHandler",
+  "title": "Post Handler",
+  "active": true,
+  "blockType": "service",
+  "family": "Server",
+  "shortDescription": "Handles Post Requests",
+  "longDescription": "Handles Post Requests",
+  "fields": [
+    {
+      "name": "Request",
+      "slug": "requestIn",
+      "type": "request",
+      "attr": "input"
+    },
+    {
+      "name": "Data",
+      "slug": "dataOut",
+      "type": "any",
+      "attr": "output"
+    }
+  ]
+}

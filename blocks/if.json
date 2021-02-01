@@ -1,19 +1,18 @@
 {
-  "name": "If",
+  "name": "if",
+  "title": "If",
   "active": true,
   "blockType": "service",
-  "group": "conditionals",
+  "family": "conditionals",
   "shortDescription": "Branches Based On Decision",
   "longDescription": "This block enables your code to create a decision. Here is some examples of it in action.",
-  "inputs": [
+  "fields": [
     {
       "name": "Input",
       "slug": "inputOne",
       "type": "Boolean",
       "attr": "input"
-    }
-  ],
-  "outputs": [
+    },
     {
       "name": "True",
       "slug": "triggerOutOne",

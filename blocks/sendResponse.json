@@ -1,0 +1,17 @@
+{
+  "name": "sendResponse",
+  "title": "Send Server Response",
+  "active": true,
+  "blockType": "service",
+  "family": "Server",
+  "shortDescription": "Sends Response from Server",
+  "longDescription": "Sends Response from Server",
+  "fields": [
+    {
+      "name": "Element[]",
+      "slug": "elementIn",
+      "type": "any",
+      "attr": "input"
+    }
+  ]
+}

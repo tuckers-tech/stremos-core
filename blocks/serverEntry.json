@@ -1,0 +1,17 @@
+{
+  "name": "serverEntry",
+  "title": "Server Entry",
+  "active": true,
+  "blockType": "service",
+  "family": "Server",
+  "shortDescription": "Entry Point for a Server",
+  "longDescription": "This block acts as the entry point for a server",
+  "fields": [
+    {
+      "name": "Request",
+      "slug": "requestOut",
+      "type": "Request",
+      "attr": "output"
+    }
+  ]
+}
