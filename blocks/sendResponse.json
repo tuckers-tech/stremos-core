@@ -6,6 +6,7 @@
   "family": "Server",
   "shortDescription": "Sends Response from Server",
   "longDescription": "Sends Response from Server",
+  "variables": [],
   "fields": [
     {
       "name": "Element[]",

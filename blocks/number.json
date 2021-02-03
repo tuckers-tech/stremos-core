@@ -9,12 +9,14 @@
   "variables": [
     {
       "name": "Number Name",
+      "group": "metadata",
       "slug": "numberName",
-      "type": "input",
+      "type": "string",
       "defaultValue": ""
     },
     {
       "name": "Generation Type",
+      "group": "core",
       "slug": "generationType",
       "type": "select",
       "defaultValue": "",
@@ -43,8 +45,9 @@
     },
     {
       "name": "Number Value",
+      "group": "core",
       "slug": "numberValue",
-      "type": "input",
+      "type": "number",
       "defaultValue": ""
     }
   ],

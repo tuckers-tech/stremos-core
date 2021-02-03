@@ -6,6 +6,7 @@
   "family": "Server",
   "shortDescription": "Entry Point for a Server",
   "longDescription": "This block acts as the entry point for a server",
+  "variables": [],
   "fields": [
     {
       "name": "Request",

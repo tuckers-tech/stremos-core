@@ -6,6 +6,7 @@
   "family": "Server",
   "shortDescription": "Gets A Piece of Data By ID",
   "longDescription": "Gets A Piece of Data By ID",
+  "variables": [],
   "fields": [
     {
       "name": "Request",

@@ -6,6 +6,7 @@
   "family": "Server",
   "shortDescription": "Routes Based on URL",
   "longDescription": "Routes URLs based on a URL",
+  "variables": [],
   "fields": [
     {
       "name": "Request",

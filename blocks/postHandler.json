@@ -6,6 +6,7 @@
   "family": "Server",
   "shortDescription": "Handles Post Requests",
   "longDescription": "Handles Post Requests",
+  "variables": [],
   "fields": [
     {
       "name": "Request",

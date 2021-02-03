@@ -6,6 +6,7 @@
   "family": "conditionals",
   "shortDescription": "Branches Based On Decision",
   "longDescription": "This block enables your code to create a decision. Here is some examples of it in action.",
+  "variables": [],
   "fields": [
     {
       "name": "Input",
