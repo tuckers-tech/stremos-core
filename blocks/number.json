@@ -10,16 +10,18 @@
     {
       "name": "Number Name",
       "group": "metadata",
+      "placeholder": "Number Name",
       "slug": "numberName",
       "type": "string",
-      "defaultValue": ""
+      "value": ""
     },
     {
       "name": "Generation Type",
       "group": "core",
+      "placeholder": "Generation Type",
       "slug": "generationType",
       "type": "select",
-      "defaultValue": "",
+      "value": "",
       "options": [
         {
           "name": "Input",
@@ -46,9 +48,10 @@
     {
       "name": "Number Value",
       "group": "core",
+      "placeholder": "Value",
       "slug": "numberValue",
       "type": "number",
-      "defaultValue": ""
+      "value": ""
     }
   ],
   "fields": [
