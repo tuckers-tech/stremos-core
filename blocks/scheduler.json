@@ -1,0 +1,18 @@
+{
+  "name": "scheduler",
+  "title": "Scheduler",
+  "active": true,
+  "blockType": "topology",
+  "family": "Server",
+  "shortDescription": "Scheduler",
+  "longDescription": "Scheduler",
+  "variables": [],
+  "fields": [
+    {
+      "name": "Job",
+      "slug": "job",
+      "type": "Job",
+      "attr": "input"
+    }
+  ]
+}

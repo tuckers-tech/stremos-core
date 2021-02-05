@@ -1,0 +1,18 @@
+{
+  "name": "job",
+  "title": "Job",
+  "active": true,
+  "blockType": "topology",
+  "family": "Server",
+  "shortDescription": "Job",
+  "longDescription": "Job",
+  "variables": [],
+  "fields": [
+    {
+      "name": "Job",
+      "slug": "job",
+      "type": "Job",
+      "attr": "output"
+    }
+  ]
+}
