@@ -13,50 +13,78 @@
       "placeholder": "Number Name",
       "slug": "numberName",
       "type": "string",
+      "show": true,
       "value": ""
     },
     {
       "name": "Generation Type",
-      "group": "core",
       "placeholder": "Generation Type",
       "slug": "generationType",
       "type": "select",
+      "show": true,
       "value": "",
       "options": [
         {
           "name": "Input",
-          "value": "input"
+          "value": "input",
+          "actions": ["numberValues.numberValue.show"]
         },
         {
           "name": "Random",
-          "value": "random"
+          "value": "random",
+          "actions": false
         },
         {
           "name": "Random With Minimum",
-          "value": "randomMin"
+          "value": "randomMin",
+          "actions": ["numberValues.numberRandomMin.show"]
         },
         {
           "name": "Random With Max",
-          "value": "randomMax"
+          "value": "randomMax",
+          "actions": ["numberValues.numberRandomMax.show"]
         },
         {
           "name": "Random Between Values",
-          "value": "randomBand"
+          "value": "randomBand",
+          "actions": [
+            "numberValues.numberRandomMin.show",
+            "numberValues.numberRandomMax.show"
+          ]
         }
       ]
     },
     {
       "name": "Number Value",
-      "group": "core",
+      "group": "numberValues",
       "placeholder": "Value",
       "slug": "numberValue",
       "type": "number",
+      "show": false,
+      "value": ""
+    },
+    {
+      "name": "Random Min",
+      "group": "numberValues",
+      "placeholder": "Value",
+      "slug": "numberRandomMin",
+      "type": "number",
+      "show": false,
+      "value": ""
+    },
+    {
+      "name": "Random Max",
+      "group": "numberValues",
+      "placeholder": "Value",
+      "slug": "numberRandomMax",
+      "type": "number",
+      "show": false,
       "value": ""
     }
   ],
   "fields": [
     {
-      "name": "NumberOut",
+      "name": "Number",
       "slug": "numberOut",
       "type": "number",
       "attr": "output"
