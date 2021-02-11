@@ -9,6 +9,18 @@
   "variables": [],
   "fields": [
     {
+      "name": "Trigger",
+      "slug": "triggerIn",
+      "type": "trigger",
+      "attr": "input"
+    },
+    {
+      "name": "Trigger",
+      "slug": "triggerOut",
+      "type": "trigger",
+      "attr": "output"
+    },
+    {
       "name": "Request",
       "slug": "requestIn",
       "type": "request",
@@ -21,7 +33,7 @@
       "attr": "input"
     },
     {
-      "name": "Data Out",
+      "name": "JSON",
       "slug": "dataOut",
       "type": "Entry",
       "attr": "output"

@@ -1,0 +1,36 @@
+{
+  "name": "json",
+  "title": "JSON",
+  "active": true,
+  "blockType": "service",
+  "family": "generators",
+  "shortDescription": "Creates JSON",
+  "longDescription": "This block allows the usage of user created JSON.",
+  "variables": [
+    {
+      "name": "JSON Name",
+      "group": "metadata",
+      "placeholder": "JSON Name",
+      "slug": "numberName",
+      "type": "string",
+      "show": true,
+      "value": ""
+    },
+    {
+      "name": "JSON Value",
+      "group": "metadata",
+      "slug": "jsonValue",
+      "type": "code",
+      "show": true,
+      "value": ""
+    }
+  ],
+  "fields": [
+    {
+      "name": "JSON",
+      "slug": "jsonOut",
+      "type": "JSON",
+      "attr": "output"
+    }
+  ]
+}

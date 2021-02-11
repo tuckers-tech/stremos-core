@@ -9,6 +9,12 @@
   "variables": [],
   "fields": [
     {
+      "name": "Trigger",
+      "slug": "triggerOut",
+      "type": "trigger",
+      "attr": "output"
+    },
+    {
       "name": "Request",
       "slug": "requestOut",
       "type": "Request",

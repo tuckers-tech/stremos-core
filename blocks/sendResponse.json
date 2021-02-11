@@ -9,7 +9,13 @@
   "variables": [],
   "fields": [
     {
-      "name": "Element[]",
+      "name": "Trigger",
+      "slug": "triggerIn",
+      "type": "trigger",
+      "attr": "input"
+    },
+    {
+      "name": "JSON",
       "slug": "elementIn",
       "type": "any",
       "attr": "input"

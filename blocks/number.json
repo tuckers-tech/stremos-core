@@ -18,6 +18,7 @@
     },
     {
       "name": "Generation Type",
+      "group": "metadata",
       "placeholder": "Generation Type",
       "slug": "generationType",
       "type": "select",
@@ -32,17 +33,23 @@
         {
           "name": "Random",
           "value": "random",
-          "actions": false
+          "actions": ["numberValues.hide"]
         },
         {
           "name": "Random With Minimum",
           "value": "randomMin",
-          "actions": ["numberValues.numberRandomMin.show"]
+          "actions": [
+            "numberValues.numberRandomMin.show",
+            "numberValues.numberRandomMax.hide"
+          ]
         },
         {
           "name": "Random With Max",
           "value": "randomMax",
-          "actions": ["numberValues.numberRandomMax.show"]
+          "actions": [
+            "numberValues.numberRandomMax.show",
+            "numberValues.numberRandomMin.hide"
+          ]
         },
         {
           "name": "Random Between Values",
@@ -83,6 +90,12 @@
     }
   ],
   "fields": [
+    {
+      "name": "Trigger",
+      "slug": "triggerOut",
+      "type": "trigger",
+      "attr": "output"
+    },
     {
       "name": "Number",
       "slug": "numberOut",
